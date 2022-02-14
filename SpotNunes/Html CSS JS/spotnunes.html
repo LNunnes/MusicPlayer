@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotNunes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <img id="logoSpot" src="../images/logoSpot.png"> 
+            <h1>SpotNunes</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="container">
+
+        <img id="logo" src="../images/logo.jpg">
+        <h2>Believer</h2> 
+        <p>Imagine Dragons</p>
+
+        <div class="duracao">
+
+            <div class="main">
+
+                <input type="range" min="0" max="0" value="0" id="slider">
+            
+            </div>
+
+            <!-- <div class="tempo">
+
+                <p class="inicio">0:00</p>
+                <p class="fim">3:00</p>
+
+            </div> -->
+            <div class="player">
+                <div id="controls">
+                    <img class="btn" src="../images/pause.png" onclick="pause()">
+                    <img class="btn" src="../images/play.png" onclick="play()">
+                    <img class="btn" src="../images/repeat.png" onclick="repeat()">
+                </div>
+            </div>
+        <audio>
+            <source src="../music/believe.mp3" type="audio/mpeg">
+        </audio>
+
+        </div>  
+    </main>
+
+    <footer>&copy;ELNunes</footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
